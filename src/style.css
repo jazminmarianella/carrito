@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 1rem;
+  font-family: system-ui, sans-serif;
+  color: black;
+  background-color: white;
+}
+
+h1 {
+  font-weight: 800;
+  font-size: 1.5rem;
+}
+
+.productTable {
+  border: 1px solid #333;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 3px 3px 3px #444;
+  width: 70%;
+}
+
+.productDisplay {
+width: 100%;
+display: inline-grid;
+grid-template-columns: 1fr 1fr 1fr;
+gap: 10px;
+}
+
+.total {
+  width: 100%;
+  display: flex;
+  justify-content: end;
+  align-items: flex-end;
+}
